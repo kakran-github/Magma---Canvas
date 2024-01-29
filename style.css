@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+@font-face {
+    font-family: a;
+    src: url(jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
+#page1 video{
+    height: 100%;
+    width: 100%;    
+    object-fit: cover;
+}
+#nav{
+    /* jisse baki part video cover krle */
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* upar niche se barabar */
+    /* padding: 0px 30px; */
+    padding: 35px 60px 10px 50px;
+    /* top right bottom left */
+}
+#nav img{
+    height: 65px;
+}
+
+#rightnav button{
+    height: 45%;
+    padding:10px 25px;
+    /* top&bottom -right&left */
+    border-radius: 50px;
+    margin: 0px 7px 0px 7px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.325);
+    font-family: a;
+    font-size: 14px;
+}
+#bottompage1{
+    position: absolute;
+    bottom: 11vh;
+    left: 20vh;
+
+}
+#bottompage1 h1{
+    font-family: a;
+    font-size: 98px;
+    font-weight: 100;
+    line-height: 100px;
+    margin-bottom: 75px;
+}
+#lowerbottom{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+#lowerbottom h4{
+    font-family: a;
+    font-size: 20px;
+    font-weight: 1;
+    line-height: 29px;
+}
+#lowerbottom button{
+    background-color: #fff;
+    color: rgb(2, 2, 184);
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 13px;
+}
+
+

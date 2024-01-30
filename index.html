@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div id="main">
-        <div id="page1">
+        <div data-scroll data-scroll-speed="-5"  id="page1">
             <div id="nav">
-                <img src="MAGMALOGO.png" alt="">
+                <img src="Images_Font/MAGMALOGO.png" alt="">
                 <div id="rightnav">
-                    <button>Book a Demo</button>
-                    <button><i class="ri-menu-line"></i></button>
+                    <button >Book a Demo</button>
+                    <button id="menu"><i class="ri-menu-line"></i></button>
                 </div>
             </div>
             <div id="bottompage1">
@@ -30,7 +31,17 @@
             </div>
             <video autoplay muted loop src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2"></video>
         </div>
+        <div id="page2">
+             <p>CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</p>
+             <h1>The Digital Twin Token is a unique digital asset <br> backed by property data. Magma combines your <br> building’s components and systems essential <br> information into a DTT®.</h1>
+        </div>
+        <div id="page3">
+            <canvas></canvas>
+        </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
 </body>
 

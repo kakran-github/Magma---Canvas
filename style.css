@@ -128,7 +128,7 @@ html,body{
     position: relative;
     /* background-color: #0A3CCE;  */
 }
-#canvas{
+#page3>canvas{
     max-height: 100vh;
     max-width: 100vw;
 }
@@ -165,7 +165,7 @@ html,body{
     position: relative;
     /* background-color: #0A3CCE;  */
 }
-#canvas{
+#page5>canvas{
     max-height: 100vh;
     max-width: 100vw;
 }
@@ -199,5 +199,33 @@ html,body{
 #page7{
     height: 100vh;
     width: 100vw;
-    
+    position: relative;
+}
+#page7>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+}
+#page7-inner-cir{
+    height: 14vw;
+    width: 14vw;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: solid 1px #99AEEB;
+    background-color: #093dcd73;
+}
+.page7-circle{
+    height: 23.5vw;
+    width: 23.5vw;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: solid 1px #98a5c865;
 }

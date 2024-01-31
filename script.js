@@ -130,72 +130,72 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-  Images_Font/frames00007.png
-  Images_Font/frames00010.png
-  Images_Font/frames00013.png
-  Images_Font/frames00016.png
-  Images_Font/frames00019.png
-  Images_Font/frames00022.png
-  Images_Font/frames00025.png
-  Images_Font/frames00028.png
-  Images_Font/frames00031.png
-  Images_Font/frames00034.png
-  Images_Font/frames00037.png
-  Images_Font/frames00040.png
-  Images_Font/frames00043.png
-  Images_Font/frames00046.png
-  Images_Font/frames00049.png
-  Images_Font/frames00052.png
-  Images_Font/frames00055.png
-  Images_Font/frames00058.png
-  Images_Font/frames00061.png
-  Images_Font/frames00064.png
-  Images_Font/frames00067.png
-  Images_Font/frames00070.png
-  Images_Font/frames00073.png
-  Images_Font/frames00076.png
-  Images_Font/frames00079.png
-  Images_Font/frames00082.png
-  Images_Font/frames00085.png
-  Images_Font/frames00088.png
-  Images_Font/frames00091.png
-  Images_Font/frames00094.png
-  Images_Font/frames00097.png
-  Images_Font/frames00100.png
-  Images_Font/frames00103.png
-  Images_Font/frames00106.png
-  Images_Font/frames00109.png
-  Images_Font/frames00112.png
-  Images_Font/frames00115.png
-  Images_Font/frames00118.png
-  Images_Font/frames00121.png
-  Images_Font/frames00124.png
-  Images_Font/frames00127.png
-  Images_Font/frames00130.png
-  Images_Font/frames00133.png
-  Images_Font/frames00136.png
-  Images_Font/frames00139.png
-  Images_Font/frames00142.png
-  Images_Font/frames00145.png
-  Images_Font/frames00148.png
-  Images_Font/frames00151.png
-  Images_Font/frames00154.png
-  Images_Font/frames00157.png
-  Images_Font/frames00160.png
-  Images_Font/frames00163.png
-  Images_Font/frames00166.png
-  Images_Font/frames00169.png
-  Images_Font/frames00172.png
-  Images_Font/frames00175.png
-  Images_Font/frames00178.png
-  Images_Font/frames00181.png
-  Images_Font/frames00184.png
-  Images_Font/frames00187.png
-  Images_Font/frames00190.png
-  Images_Font/frames00193.png
-  Images_Font/frames00196.png
-  Images_Font/frames00199.png
-  Images_Font/frames00202.png
+  Images_Font/frames00007.webp
+  Images_Font/frames00010.webp
+  Images_Font/frames00013.webp
+  Images_Font/frames00016.webp
+  Images_Font/frames00019.webp
+  Images_Font/frames00022.webp
+  Images_Font/frames00025.webp
+  Images_Font/frames00028.webp
+  Images_Font/frames00031.webp
+  Images_Font/frames00034.webp
+  Images_Font/frames00037.webp
+  Images_Font/frames00040.webp
+  Images_Font/frames00043.webp
+  Images_Font/frames00046.webp
+  Images_Font/frames00049.webp
+  Images_Font/frames00052.webp
+  Images_Font/frames00055.webp
+  Images_Font/frames00058.webp
+  Images_Font/frames00061.webp
+  Images_Font/frames00064.webp
+  Images_Font/frames00067.webp
+  Images_Font/frames00070.webp
+  Images_Font/frames00073.webp
+  Images_Font/frames00076.webp
+  Images_Font/frames00079.webp
+  Images_Font/frames00082.webp
+  Images_Font/frames00085.webp
+  Images_Font/frames00088.webp
+  Images_Font/frames00091.webp
+  Images_Font/frames00094.webp
+  Images_Font/frames00097.webp
+  Images_Font/frames00100.webp
+  Images_Font/frames00103.webp
+  Images_Font/frames00106.webp
+  Images_Font/frames00109.webp
+  Images_Font/frames00112.webp
+  Images_Font/frames00115.webp
+  Images_Font/frames00118.webp
+  Images_Font/frames00121.webp
+  Images_Font/frames00124.webp
+  Images_Font/frames00127.webp
+  Images_Font/frames00130.webp
+  Images_Font/frames00133.webp
+  Images_Font/frames00136.webp
+  Images_Font/frames00139.webp
+  Images_Font/frames00142.webp
+  Images_Font/frames00145.webp
+  Images_Font/frames00148.webp
+  Images_Font/frames00151.webp
+  Images_Font/frames00154.webp
+  Images_Font/frames00157.webp
+  Images_Font/frames00160.webp
+  Images_Font/frames00163.webp
+  Images_Font/frames00166.webp
+  Images_Font/frames00169.webp
+  Images_Font/frames00172.webp
+  Images_Font/frames00175.webp
+  Images_Font/frames00178.webp
+  Images_Font/frames00181.webp
+  Images_Font/frames00184.webp
+  Images_Font/frames00187.webp
+  Images_Font/frames00190.webp
+  Images_Font/frames00193.webp
+  Images_Font/frames00196.webp
+  Images_Font/frames00199.webp
+  Images_Font/frames00202.webp
  `;
   return data.split("\n")[index];
 }
@@ -303,73 +303,73 @@ render();
 
 function files(index) {
 var data = `
-Images_Font/bridges00004.png
-Images_Font/bridges00007.png
-Images_Font/bridges00010.png
-Images_Font/bridges00013.png
-Images_Font/bridges00016.png
-Images_Font/bridges00019.png
-Images_Font/bridges00022.png
-Images_Font/bridges00025.png
-Images_Font/bridges00028.png
-Images_Font/bridges00031.png
-Images_Font/bridges00034.png
-Images_Font/bridges00037.png
-Images_Font/bridges00040.png
-Images_Font/bridges00043.png
-Images_Font/bridges00046.png
-Images_Font/bridges00049.png
-Images_Font/bridges00052.png
-Images_Font/bridges00055.png
-Images_Font/bridges00058.png
-Images_Font/bridges00061.png
-Images_Font/bridges00064.png
-Images_Font/bridges00067.png
-Images_Font/bridges00070.png
-Images_Font/bridges00073.png
-Images_Font/bridges00076.png
-Images_Font/bridges00079.png
-Images_Font/bridges00082.png
-Images_Font/bridges00085.png
-Images_Font/bridges00088.png
-Images_Font/bridges00091.png
-Images_Font/bridges00094.png
-Images_Font/bridges00097.png
-Images_Font/bridges00100.png
-Images_Font/bridges00103.png
-Images_Font/bridges00106.png
-Images_Font/bridges00109.png
-Images_Font/bridges00112.png
-Images_Font/bridges00115.png
-Images_Font/bridges00118.png
-Images_Font/bridges00121.png
-Images_Font/bridges00124.png
-Images_Font/bridges00127.png
-Images_Font/bridges00130.png
-Images_Font/bridges00133.png
-Images_Font/bridges00136.png
-Images_Font/bridges00139.png
-Images_Font/bridges00142.png
-Images_Font/bridges00145.png
-Images_Font/bridges00148.png
-Images_Font/bridges00151.png
-Images_Font/bridges00154.png
-Images_Font/bridges00157.png
-Images_Font/bridges00160.png
-Images_Font/bridges00163.png
-Images_Font/bridges00166.png
-Images_Font/bridges00169.png
-Images_Font/bridges00172.png
-Images_Font/bridges00175.png
-Images_Font/bridges00178.png
-Images_Font/bridges00181.png
-Images_Font/bridges00184.png
-Images_Font/bridges00187.png
-Images_Font/bridges00190.png
-Images_Font/bridges00193.png
-Images_Font/bridges00196.png
-Images_Font/bridges00199.png
-Images_Font/bridges00202.png
+Images_Font/bridges00004.webp
+Images_Font/bridges00007.webp
+Images_Font/bridges00010.webp
+Images_Font/bridges00013.webp
+Images_Font/bridges00016.webp
+Images_Font/bridges00019.webp
+Images_Font/bridges00022.webp
+Images_Font/bridges00025.webp
+Images_Font/bridges00028.webp
+Images_Font/bridges00031.webp
+Images_Font/bridges00034.webp
+Images_Font/bridges00037.webp
+Images_Font/bridges00040.webp
+Images_Font/bridges00043.webp
+Images_Font/bridges00046.webp
+Images_Font/bridges00049.webp
+Images_Font/bridges00052.webp
+Images_Font/bridges00055.webp
+Images_Font/bridges00058.webp
+Images_Font/bridges00061.webp
+Images_Font/bridges00064.webp
+Images_Font/bridges00067.webp
+Images_Font/bridges00070.webp
+Images_Font/bridges00073.webp
+Images_Font/bridges00076.webp
+Images_Font/bridges00079.webp
+Images_Font/bridges00082.webp
+Images_Font/bridges00085.webp
+Images_Font/bridges00088.webp
+Images_Font/bridges00091.webp
+Images_Font/bridges00094.webp
+Images_Font/bridges00097.webp
+Images_Font/bridges00100.webp
+Images_Font/bridges00103.webp
+Images_Font/bridges00106.webp
+Images_Font/bridges00109.webp
+Images_Font/bridges00112.webp
+Images_Font/bridges00115.webp
+Images_Font/bridges00118.webp
+Images_Font/bridges00121.webp
+Images_Font/bridges00124.webp
+Images_Font/bridges00127.webp
+Images_Font/bridges00130.webp
+Images_Font/bridges00133.webp
+Images_Font/bridges00136.webp
+Images_Font/bridges00139.webp
+Images_Font/bridges00142.webp
+Images_Font/bridges00145.webp
+Images_Font/bridges00148.webp
+Images_Font/bridges00151.webp
+Images_Font/bridges00154.webp
+Images_Font/bridges00157.webp
+Images_Font/bridges00160.webp
+Images_Font/bridges00163.webp
+Images_Font/bridges00166.webp
+Images_Font/bridges00169.webp
+Images_Font/bridges00172.webp
+Images_Font/bridges00175.webp
+Images_Font/bridges00178.webp
+Images_Font/bridges00181.webp
+Images_Font/bridges00184.webp
+Images_Font/bridges00187.webp
+Images_Font/bridges00190.webp
+Images_Font/bridges00193.webp
+Images_Font/bridges00196.webp
+Images_Font/bridges00199.webp
+Images_Font/bridges00202.webp
 `;
 return data.split("\n")[index];
 }

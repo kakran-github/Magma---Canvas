@@ -358,23 +358,11 @@ Images_Font/bridges00157.webp
 Images_Font/bridges00160.webp
 Images_Font/bridges00163.webp
 Images_Font/bridges00166.webp
-Images_Font/bridges00169.webp
-Images_Font/bridges00172.webp
-Images_Font/bridges00175.webp
-Images_Font/bridges00178.webp
-Images_Font/bridges00181.webp
-Images_Font/bridges00184.webp
-Images_Font/bridges00187.webp
-Images_Font/bridges00190.webp
-Images_Font/bridges00193.webp
-Images_Font/bridges00196.webp
-Images_Font/bridges00199.webp
-Images_Font/bridges00202.webp
 `;
 return data.split("\n")[index];
 }
 
-const frameCount = 67;
+const frameCount = 55;
 
 const images = [];
 const imageSeq = {
@@ -708,3 +696,5 @@ gsap.to("#page7-inner-cir",{
     scrub:0.5
   }
 })
+
+// gsap.to("#page8")

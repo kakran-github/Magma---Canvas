@@ -229,3 +229,76 @@ html,body{
     transform: translate(-50%,-50%);
     border: solid 1px #98a5c865;
 }
+#page8{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page8>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page8-bottomdiv{
+    position: absolute;
+    bottom: 13%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-family: a;
+}
+#page8-bottomdiv h1{
+    color: white;
+    font-size: 97px;
+    margin-bottom:20px ;
+    font-weight: 400;
+}
+#page8-bottomdiv button{
+    background-color: #fff;
+    color: rgb(2, 2, 184);
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 13.5px;;
+    margin-left: 185px;
+    width: 185px;
+    height: 50px;
+}
+#page9{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+#textpage9{
+    height: 100%;
+    width: 50%;
+    font-family: a;
+    position: relative;
+    color: #fff;
+}
+#textpage9 h1{
+    top: 43%;
+    transform: translateY(-63%);
+    position: absolute;
+    left: 19%;
+    font-size: 97px;
+    font-weight: 500;
+    line-height: 85px;
+}
+#right9{
+    height: 100%;
+    width: 50%;
+    /* background-color: aliceblue; */
+    display: flex;
+    /* align-items: center; */
+}
+#rightctr9{
+    height: 65%;
+    width: 820px;
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    position: absolute;
+    top: 23%;
+    right: 10%;
+    border-radius: 10px;
+    background-size: cover;
+}

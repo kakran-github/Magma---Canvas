@@ -302,3 +302,47 @@ html,body{
     border-radius: 10px;
     background-size: cover;
 }
+#page10{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: a;
+    display: flex;
+    color: white;
+    background-color: #042A9B;
+}
+#left10{
+    height: 100%;
+    width: 37%;
+}
+#right10{
+    height: 100%;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 2.5vw;
+}
+#rt101{
+    height: 29.5%;
+    width: 100%;
+   
+}
+#rt102{
+    height: 40.5%;
+    width: 100%;
+
+}
+#rt103{
+    height: 27%;
+    width: 100%;
+}
+#right10 p{
+    margin-top: 1vw;
+    font-size: 25px;
+    color: #CCD3E9;
+}
+#right10 h1{
+    font-size: 25px;
+}

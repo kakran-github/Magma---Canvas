@@ -692,7 +692,7 @@ gsap.to("#page7-inner-cir",{
     start:"top center",
     // element - screen
     end:"bottom top",
-    markers: true,
+    // markers: true,
     scrub:0.5
   }
 })

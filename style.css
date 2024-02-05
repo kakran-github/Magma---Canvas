@@ -346,3 +346,87 @@ html,body{
 #right10 h1{
     font-size: 25px;
 }
+
+#page11{
+    height: 175vh;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    font-family: a;
+}
+#page11 h1{
+    padding-top: 10%;
+    padding-left: 140px;
+    font-size: 90px;
+    font-weight: 550;
+    margin-bottom: 65px;
+}
+.inner11{
+    position: relative;
+    height: 16.4%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.left11 {
+    height: 100%;
+    width: 55%;
+    padding-left: 135px;
+}
+
+.left11 img{
+    height: 98%;
+    width: 88%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.right11{
+    height: 100%;
+    width: 50%;
+    display: flex;  
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* background-color: red; */
+
+}
+.right11 h4{
+    color: rgba(0, 0, 0, 0.684);
+    margin-bottom: 10px;
+}
+.right11 h2{
+    color: #000000bb;
+}
+#inner113{
+    margin-bottom: 100px;
+}
+#page11 button{
+    margin-left: 780px;   
+    background-color: transparent;
+    border: 1px solid #093DCD;
+    color: #093DCD;
+    border-radius: 50px;
+    height: 45px;
+    width: 140px;
+    font-family: b;
+    font-size: 15px;
+}
+#page11 button i{
+    padding-left: 20px;
+    
+}
+#page12 {
+    position: relative;
+    height: 99.25vh;
+    width: 100%;
+    background-color: #02268E;
+}
+#footer{
+    height: 100vh;
+    width: 100%;
+    background-color: #0F0F17;
+}

@@ -425,8 +425,92 @@ html,body{
     width: 100%;
     background-color: #02268E;
 }
-#footer{
-    height: 100vh;
+#page12-upper{
+    height: 60%;
+    width: 100%;
+    margin-left: 790px;
+    padding-top: 150px;
+    color: white;
+    font-family: a;
+}
+#page12-upper h1{
+    font-size: 95px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+#page12-upper p{
+    font-size: 20px;
+    /* font-weight: 100; */
+    color:rgba(255, 255, 255, 0.797) ;
+}
+#footer1{
+    position: relative;
+    height: 73vh;
     width: 100%;
     background-color: #0F0F17;
+    padding-top: 145px;
+    padding-left:150px;
+    font-family: a;
 }
+#footer1 h1{
+    color: #fff;
+    font-size: 95px;
+    font-weight: 100;
+    line-height: 95px;
+}
+#footer1 button{
+    color:#fff;
+    background-color: #0A3CCE;
+    width: 182px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+    font-size: 14px;
+    font-family: b;
+    border: 0px;
+}
+#footer2{
+    height: 50vh;
+    width: 100%;
+    background-color: #0F0F17;
+    position: relative;
+    font-family: a;
+}
+.innerf2{
+    position: relative;
+    height: 33.3%;
+    width: 100%;
+    background-color: #0F0F17;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+    /* top bottom and left right  */
+    color: white;
+    font-size: 16.5px;
+    font-weight: 100;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.103);
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.103) ;
+}
+.innerf2 i{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: a;
+    z-index: 99;
+}
+.innerf2 h1{
+    z-index: 99;
+}
+.centerf2{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    background-color: #0A3CCE;
+    left: 0%;
+    right: 0%;
+}
+.innerf2:hover .centerf2{
+    height: 100%;
+    transition: all ease 0.5s;
+}
+
